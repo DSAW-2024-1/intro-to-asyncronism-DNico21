@@ -1,4 +1,7 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/IzcH6WD-)
 # Desarrollo de Aplicaciones Web
+## POR: DEIVID NICOLAS URREA LARA - ID:304871
+## LINK PAGINA: https://dsaw-2024-1.github.io/intro-to-asyncronism-DNico21/
 ## Introducción al Asíncronismo
 
 
@@ -21,6 +24,6 @@
 |--------------------|---------|
 | Creatividad        | 1       |
 | Diseño             | 1       |
-| Calidad del código     | 1.5     |
-| Funcionalidad      | 1.5      |
+| Calidad del código | 1.5     |
+| Funcionalidad      | 1.5     |
 

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/FUENTES/Simpsonfont\ DEMO.otf") format("opentype");
+}
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffd90f;
+}
+
+p{
+  text-align: center;
+  font-family: cursive;
+}
+
+h1 {
+  border-radius: 20px;
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+  font-size: 100;
+  background-image: url("./assets/images/5632473.jpg");
+  background-size: cover;
+  color: #ffd90f;
+  text-shadow: -7px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: 2px 2px 5px #000;
+  margin-bottom: 25px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f4;
+  border-radius: 50px;
+  padding: 0px 240px;
+  margin: 25px 100px;
+  box-shadow: 1px 1px 5px #000;
+}
+
+input {
+  font-family: "MyFont", sans-serif;
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center; /* Alinea el texto en el centro */
+}
+
+
+h2 {
+  font-family: "MyFont", sans-serif;
+  background-color: white;
+  margin-bottom: 15px;
+}
+span {
+  background-color: white;
+  font-family: cursive;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  background-color: white;
+  width: 200px; /* Ancho fijo para todas las imágenes */
+  height: 250px; /* Alto fijo para todas las imágenes */
+}
+
+.image-container img {
+  background-color: white;
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+  max-height: 100%; /* Ajusta la altura máxima de la imagen al 100% del contenedor */
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #000;
+  background-color: white;
+  transition: box-shadow 0.3s ease, transform 1s ease;
+  border-radius: 15px;
+}
+
+article:hover {
+  box-shadow: 0px 0px 20px #000;
+  transform: scale(1.05);
+  font-size: 110%;
+}
+
+#load-more-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 700px;
+  font-size: 16px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "MyFont", sans-serif;
+  background-image: url("./assets/images/cloud\ background.jpg");
+  background-size: cover;
+  color: #ffd90f;
+  font-size: 35px;
+  text-shadow: -1px -3px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: 0px 5px 10px #000;
+  transition: box-shadow 0.3s ease, transform 0.5s ease;
+}
+
+#load-more-button:hover {
+  box-shadow: 0px 0px 10px #000;
+  transform: scale(1.1);
+}
